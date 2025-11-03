@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Victor | Desenvolvedor de Sistemas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header class="navbar">
+            <div class="logo">JV</div>
+            <nav>
+                <ul>
+                    <li><a href="#about"><span class="accent-color">#1.</span> Sobre</a></li>
+                    <li><a href="#experience"><span class="accent-color">#2.</span> Experiência</a></li>
+                    <li><a href="#projects"><span class="accent-color">#3.</span> Projetos</a></li>
+                    <li><a href="#skills"><span class="accent-color">#4.</span> Habilidades</a></li>
+                </ul>
+            </nav>
+            <button class="btn-resume" onclick="window.print()">Gerar PDF</button>
+        </header>
+
+        <main id="hero" class="fade-in">
+            <p class="greeting">Olá, meu nome é</p>
+            <h1>João Victor.</h1>
+            <h2 id="typing-text"></h2> 
+            <section class="about-summary">
+                <p>Sou estudante de Desenvolvimento de Sistemas, com foco em tecnologias Front-end e conhecimentos sólidos em Java e Banco de Dados. Atualmente, busco uma oportunidade Trainee/Júnior para aplicar minhas habilidades e crescer na área de desenvolvimento.</p>
+                <div class="contact-links">
+                    <p>🏠 Uberlândia, MG | ✉ jovitorgsilva@gmail.com</p>
+                </div>
+            </section>
+            
+            <a href="https://wa.me/5534998943947" target="_blank" class="btn-primary">Entre em Contato</a>
+        </main>
+
+        <section id="about" class="content-section observer-target">
+            <h3 class="section-title"><span class="accent-color">#1.</span> Sobre Mim & Objetivo</h3>
+            <p><strong>Objetivo:</strong> Atuar na área de desenvolvimento, contribuindo para projetos inovadores e buscando crescimento profissional contínuo.</p>
+            <p>Minha paixão por código começou no Curso Técnico, onde me especializei no ciclo completo de desenvolvimento. Tenho facilidade em aprender novas tecnologias e foco em entregar soluções eficientes e com boa experiência de usuário. Estou ansioso para integrar uma equipe e transformar ideias em código!</p>
+        </section>
+
+        <section id="experience" class="content-section observer-target">
+            <h3 class="section-title"><span class="accent-color">#2.</span> Formação e Experiência</h3>
+            
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h4>Curso Técnico em Desenvolvimento de Sistemas</h4>
+                        <p><strong>SENAC Uberlândia</strong></p>
+                        <p>Formação focada em desenvolvimento de software, abrangendo POO (Java), Front-end (HTML/CSS/JS) e Banco de Dados (SQL).</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+     <section id="projects" class="content-section observer-target">
+    <h3 class="section-title"><span class="accent-color">#3.</span> Projetos Relevantes</h3>
+    
+    <div class="project-grid">
+        <div class="project-card">
+            <h4>Portfólio Pessoal (Atual)</h4>
+            <p>Desenvolvimento desta landing page utilizando HTML, CSS, e TypeScript para animações e o efeito de digitação.</p>
+            <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>TypeScript</span>
+            </div>
+            <a href="https://github.com/JhonYuusha/portfolio" target="_blank">🔗 GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h4>Jhonny Pizzas (Landing Page)</h4>
+            <p>Página de apresentação de uma pizzaria, construída com foco em design responsivo e interatividade, utilizando HTML, CSS e JavaScript puros.</p>
+            <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/JhonYuusha/jhonypizzas" target="_blank">🔗 GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h4>Projeto Seal (Homenagem a Focas)</h4>
+            <p>Site de homenagem a animais marinhos. O desafio foi estilizar e dar vida à página (CSS/JS) sem alterar o HTML fornecido pelo instrutor.</p>
+            <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/JhonYuusha/seal" target="_blank">🔗 GitHub</a>
+        </div>
+    </div>
+    <div class="private-project-note">
+      <span class="accent-color">Em Andamento:</span> Desenvolvimento de um Bot de Moderação e Economia para Discord. Este projeto é construído em <strong>JavaScript/Node.js puro</strong> e permanece privado para evitar vazamento de tokens e manter a integridade do serviço.
+    </div>
+     </section>
+
+        <section id="skills" class="content-section observer-target">
+            <h3 class="section-title"><span class="accent-color">#4.</span> Habilidades</h3>
+            <ul class="skills-list">
+                
+                <li><span class="accent-color">➤</span> Linguagens: Java (<span class="skill-tag intermediate" title="Nível intermediário, capaz de desenvolver projetos complexos." data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="Java">?</span>
+                    <div class="skill-popup" id="Java-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Linguagens: JavaScript (<span class="skill-tag expert" title="Alto nível de proficiência, uso diário ou frequente." data-level="Expert">Expert</span>)
+                    <span class="skill-info-icon" data-skill="JavaScript">?</span>
+                    <div class="skill-popup" id="JavaScript-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Linguagens: TypeScript (<span class="skill-tag intermediate" title="Nível intermediário, capaz de desenvolver projetos complexos." data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="TypeScript">?</span>
+                    <div class="skill-popup" id="TypeScript-popup"></div>
+                </li>
+
+                <li><span class="accent-color">➤</span> Front-end: HTML5 (<span class="skill-tag expert" data-level="Expert">Expert</span>)
+                    <span class="skill-info-icon" data-skill="HTML5">?</span>
+                    <div class="skill-popup" id="HTML5-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Front-end: CSS3 (<span class="skill-tag expert" data-level="Expert">Expert</span>)
+                    <span class="skill-info-icon" data-skill="CSS3">?</span>
+                    <div class="skill-popup" id="CSS3-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Front-end: React (<span class="skill-tag intermediate" data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="React">?</span>
+                    <div class="skill-popup" id="React-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Front-end: Bootstrap (<span class="skill-tag intermediate" data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="Bootstrap">?</span>
+                    <div class="skill-popup" id="Bootstrap-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Front-end: Tailwind (<span class="skill-tag intermediate" title="Nível intermediário, capaz de desenvolver projetos complexos." data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="Tailwind">?</span>
+                    <div class="skill-popup" id="Tailwind-popup"></div>
+                </li>
+
+                <li><span class="accent-color">➤</span> Banco de Dados: SQL (MySQL/MariaDB) (<span class="skill-tag intermediate" data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="SQL">?</span>
+                    <div class="skill-popup" id="SQL-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Banco de Dados: NoSQL (MongoDB/Firebase) (<span class="skill-tag basic" data-level="Basic">Básico</span>)
+                    <span class="skill-info-icon" data-skill="NoSQL">?</span>
+                    <div class="skill-popup" id="NoSQL-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Ferramentas: Git/GitHub (<span class="skill-tag intermediate" data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="Git">?</span>
+                    <div class="skill-popup" id="Git-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Ferramentas: VS Code (<span class="skill-tag expert" data-level="Expert">Expert</span>)
+                    <span class="skill-info-icon" data-skill="VSCode">?</span>
+                    <div class="skill-popup" id="VSCode-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Ferramentas: Node.js (<span class="skill-tag intermediate" data-level="Intermediate">Intermediário</span>)
+                    <span class="skill-info-icon" data-skill="Nodejs">?</span>
+                    <div class="skill-popup" id="Nodejs-popup"></div>
+                </li>
+                
+                <li><span class="accent-color">➤</span> Soft Skills: Trabalho em equipe, proatividade e comunicação.</li>
+            </ul>
+        </section>
+
+        <footer>
+    <div class="footer-content-wrapper">
+        <div class="design-attribution">
+            Designed & Built by Jhon Yuusha
+            <div id="footer-popup" class="footer-popup">
+                Apenas um cara viciado em lógica e desenvolvimento.
+            </div>
+        </div>
+        <p>Desenvolvido com 💚 e muito café.</p>
+    </div>
+        </footer>
+
+        <div class="social-sidebar left-sidebar">
+            <ul>
+                <li><a href="https://github.com/JhonYuusha" target="_blank">
+                    <img src="images/github.svg" alt="GitHub">
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/lembrar-de-colocar-perfil" target="_blank">
+                    <img src="images/linkedin.svg" alt="LinkedIn">
+                </a></li>
+            </ul>
+        </div>
+        
+        <button id="back-to-top" title="Voltar para o topo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        </button>
+    </div>
+    
+    <div id="level-popup" class="level-popup">
+        <div class="popup-header">
+            <h4 id="level-popup-title"></h4>
+            <button id="level-popup-close">X</button>
+        </div>
+        <ul id="level-popup-list">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
