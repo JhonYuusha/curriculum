@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const levelPopupTitle = document.getElementById('level-popup-title');
     const levelPopupList = document.getElementById('level-popup-list');
     const levelPopupClose = document.getElementById('level-popup-close');
-    const textToType = "Eu construo soluções Web.";
+    const textToType = "Desenvolvedor Full Stack Júnior.";
     if (heroSection) {
         setTimeout(() => {
             heroSection.classList.add('loaded');
